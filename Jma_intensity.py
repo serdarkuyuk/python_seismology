@@ -1,10 +1,13 @@
 def jma_int(x, y, z, dt):
 
     '''
-    :param x: first component of waveform
-    :param y: first component of waveform
-    :param z: first component of waveform
-    :param dt: interval between data points
+    This function calculates the Japanese Meteorological Agency JMA, Intensity using 3 component
+    acceleration data cm/s/s, gal.
+
+    :param x: first component of waveform (gal)
+    :param y: first component of waveform (gal)
+    :param z: first component of waveform (gal)
+    :param dt: interval between data points (seconds)
     :return: JMA seismic intensity
 
     Example
@@ -14,6 +17,7 @@ def jma_int(x, y, z, dt):
     dt = 0.01
 
     this code is converted from Matlab by Dr. H. Serdar Kuyuk
+    original code belongs to Shunpei, M., modified by Yu, Y.
     at International Research Institute of Disaster Science, Tohoku University, Japan
     serdarkuyuk@gmail.com
     https://scholar.google.co.jp/citations?user=ydxA_sAAAAAJ&hl=en
