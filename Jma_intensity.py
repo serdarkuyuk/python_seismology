@@ -16,7 +16,7 @@ def jma_int(x, y, z, dt):
     z = np.linspace(21, 30, 1000)
     dt = 0.01
 
-    this code is converted from Matlab by Dr. H. Serdar Kuyuk
+    this code is converted from Matlab by Dr. H. Serdar Kuyuk, Harvard University
     original code belongs to Shunpei, M., modified by Yu, Y. in 2007
     at International Research Institute of Disaster Science, Tohoku University, Japan
     serdarkuyuk@gmail.com
