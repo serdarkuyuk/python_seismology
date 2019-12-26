@@ -17,7 +17,7 @@ def jma_int(x, y, z, dt):
     dt = 0.01
 
     this code is converted from Matlab by Dr. H. Serdar Kuyuk
-    original code belongs to Shunpei, M., modified by Yu, Y.
+    original code belongs to Shunpei, M., modified by Yu, Y. in 2007
     at International Research Institute of Disaster Science, Tohoku University, Japan
     serdarkuyuk@gmail.com
     https://scholar.google.co.jp/citations?user=ydxA_sAAAAAJ&hl=en
